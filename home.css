@@ -7,11 +7,16 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+header {
+  height: 100vh;
+  display: none;
+}
+
 nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 6px 0 6px 23px;
+  padding: 12px 0 6px 23px;
   position: relative;
   background: #ffffff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -29,4 +34,110 @@ nav {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.header-content {
+  padding-top: 6.063rem;
+  display: grid;
+  gap: 0.313rem;
+  justify-items: center;
+  align-content: flex-start;
+  height: 100vh;
+}
+
+.headline > h3 {
+  color: #ec5242;
+  font-weight: 300;
+  margin: 0;
+}
+
+.img-text {
+  background-image: url("./images/text-bg.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+
+.summit-intro {
+  color: #515151;
+  margin: 0;
+  padding: 17px 22px;
+}
+
+.location-time {
+  padding: 0 18px 0 0;
+  display: grid;
+  gap: 8px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.summit-time {
+  color: #595959;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.summit-venue {
+  color: #868686;
+  margin: 0;
+  font-size: 0.813rem;
+  font-weight: 700;
+}
+
+.main-program {
+  display: flex;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 30.5px 10px;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+}
+
+.underline {
+  width: 30px;
+  border-bottom: 2px solid #a04038;
+  /* position: absolute; */
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.program-list {
+}
+
+.program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background-color: #3b3e45;
+  padding: 9px;
+  text-align: left;
+}
+
+.program-head-title {
+  margin: 0;
+}
+
+.program-title {
+  color: #ff5438;
+  font-weight: 700;
+}
+
+.join-button {
+  text-decoration: none;
+  border: none;
+  width: 18.75rem;
+  height: 4.25rem;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 1rem;
+  background-color: #ff4f38;
 }

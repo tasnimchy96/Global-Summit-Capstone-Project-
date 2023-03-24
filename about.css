@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px 0 6px 23px;
+  position: relative;
+  background: #ffffff;
+}
+
+.hamburger {
+  font-size: 1.938rem;
+  font-weight: 700;
+}
+
+.nav-logo {
+  width: 8.125rem;
+  height: 3.188rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-content {
+  display: grid;
+  gap: 0.313rem;
+  justify-items: center;
+  align-content: flex-start;
+  text-align: center;
+}
+
+.headline {
+  display: grid;
+  gap: 0.5rem;
+  background-color: #f5f5f5;
+  padding: 0.75rem 0.75rem 2.5rem 0;
+}
+
+.headline > h2 {
+  color: #f66f44;
+  font-weight: 300;
+  margin: 0;
+}
+
+.img-text {
+  margin: 0;
+  color: #f9432b;
+  font-weight: 900;
+}
+
+.img-text > br {
+  display: none;
+}
+
+.about-intro {
+  padding: 24px 9.5px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.contact-email {
+  background-color: #f5f5f5;
+  padding: 25px 41.5px;
+  line-height: 1.5rem;
+  font-size: 0.75rem;
+}
+
+.contact-email > p {
+  margin: 0;
+  font-weight: 700;
+  color: #7a7a7a;
+}
+
+.contact-email > a {
+  text-decoration: underline;
+  color: #5f5f5f;
+  font-weight: 800;
+}
+
+.about-logo {
+  text-align: center;
+}
+
+.logo-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #2c2c2c;
+}
+
+.underline {
+  width: 35px;
+  border-bottom: 2px solid #a04038;
+}
+
+.logo-detail {
+  padding: 0 10.5px;
+  font-weight: 700;
+  color: #838383;
+}
+
+.logo {
+  width: 100%;
+}
+
+.past-summit {
+  text-align: center;
+}
+
+.past-summit-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #2c2c2c;
+}
+
+.past-summit-intro {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #838383;
+  padding: 0 18px;
+  margin-bottom: 0;
+}
+
+.past-summit-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 35px 21px;
+}
+
+.past-summit-img {
+  width: 334px;
+  height: 182.46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0.8)
+    ),
+    url("./images/past_summit_1.jpg");
+}
+
+.bg-img-2 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0.8)
+    ),
+    url("./images/past_summit_2.jpg");
+}
+
+.summit-date {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 32px;
+  margin: 0;
+}
+
+.summit-location {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.partner-title {
+
+} 
