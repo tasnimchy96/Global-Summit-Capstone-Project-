@@ -185,6 +185,30 @@ nav {
   font-size: 16px;
 }
 
-.partner-title {
+.partners {
+  background-color: #414246;
+  text-align: center;
+  padding: 20px 10px;
+}
 
+.partner-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0;
 } 
+
+.partner-logos {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 38px;
+}
+
+.partner-logo > img {
+  width: auto;
+  height: 31px;
+}
