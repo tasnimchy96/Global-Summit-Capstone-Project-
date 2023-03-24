@@ -11,13 +11,28 @@
     <!-- Navigation Section Starts -->
     <header>
       <nav>
-        <div class="hamburger">&#9776;</div>
+        <div class="hamburger open" id="hamburger">&#9776;</div>
         <img
           class="nav-logo"
           src="./images/logo.png"
           alt="CC Global Summit Logo"
         />
       </nav>
+
+      <!-- menu toggle -->
+
+      <div id="myNav" class="overlay close">
+        <a href="javascript:void(0)" class="closebtn close">&times;</a>
+        <div class="overlay-content">
+          <a href="#about" class="close">About</a>
+          <a href="#program" class="close">Program</a>
+          <a href="#join" class="close">Join</a>
+          <a href="#sponsor" class="close">Sponsor</a>
+          <a href="#news" class="close">News</a>
+          <a href="#cc-campaign" class="close" id="campaign">CC Campaign</a>
+        </div>
+      </div>
+
       <div class="header-content">
         <div class="headline">
           <h2>"Hello! Sharing world"</h2>
@@ -52,6 +67,7 @@
     </p>
     <img src="./images/about_logo.png" alt="" class="logo">
     </section>
+
     <section class="past-summit">
       <p class="past-summit-title">See the past CC Global Summits<hr class="underline"></p>
       <p class="past-summit-intro">Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
@@ -75,6 +91,11 @@
         <li class="partner-logo"><img src="./images/partners/airbnb.png" alt=""></li>
       </ul>
     </section>
+
+    <footer>
+      <img src="./images/about-footer.png" alt="" class="footer-logo">
+      <p class="rights">2015 Creative Commons Korea. Some Rights Reserved.</p>
+    </footer>
 
     <script src="./script.js"></script>
   </body>

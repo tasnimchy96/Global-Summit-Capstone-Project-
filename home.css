@@ -18,7 +18,7 @@ nav {
   align-items: center;
   padding: 12px 0 6px 23px;
   position: relative;
-  background: #ffffff;
+  background: #fff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -70,6 +70,7 @@ nav {
   padding: 0 18px 0 0;
   display: grid;
   gap: 8px;
+
   /* display: flex;
   flex-direction: column; */
 }
@@ -96,14 +97,16 @@ nav {
   gap: 40px;
   padding: 30.5px 10px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   background-color: black;
 }
 
 .underline {
   width: 30px;
   border-bottom: 2px solid #a04038;
+
   /* position: absolute; */
+
   /* left: 50%;
   top: 50%;
   transform: translate(-50%, -50%); */
@@ -136,7 +139,7 @@ nav {
   border: none;
   width: 18.75rem;
   height: 4.25rem;
-  color: #ffffff;
+  color: #fff;
   font-weight: 900;
   font-size: 1rem;
   background-color: #ff4f38;
