@@ -55,11 +55,24 @@ nav {
 .overlay > a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 500;
   color: #fff;
   display: block;
   transition: 0.3s;
+}
+
+.overlay-content > a {
+  text-decoration: none;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact-email > a {
+  text-decoration: underline;
+  color: #5f5f5f;
+  font-weight: 800;
 }
 
 .overlay > a:hover,
@@ -71,14 +84,7 @@ nav {
   position: absolute;
   top: 20px;
   right: 45px;
-  font-size: 60px;
-}
-
-.overlay-content > a {
-  text-decoration: none;
-  font-size: 36px;
-  font-weight: 700;
-  color: #ffffff;
+  font-size: 3.75rem;
 }
 
 .overlay-content > a:hover,
@@ -148,9 +154,15 @@ nav {
 .about-intro {
   padding: 24px 9.5px;
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 25px;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .contact-email {
@@ -166,10 +178,9 @@ nav {
   color: #7a7a7a;
 }
 
-.contact-email > a {
-  text-decoration: underline;
-  color: #5f5f5f;
-  font-weight: 800;
+.partner-logo > img {
+  width: auto;
+  height: 31px;
 }
 
 .contact-email > a > img {
@@ -181,7 +192,7 @@ nav {
 }
 
 .logo-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 28px;
   color: #2c2c2c;
@@ -212,7 +223,7 @@ nav {
 }
 
 .past-summit-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 28px;
   color: #2c2c2c;
@@ -220,7 +231,7 @@ nav {
 }
 
 .past-summit-intro {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
   line-height: 21px;
   color: #838383;
@@ -249,7 +260,8 @@ nav {
 }
 
 .bg-img-1 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       0deg,
       rgba(255, 0, 0, 0.6),
       rgba(255, 0, 0, 0.6)
@@ -258,7 +270,8 @@ nav {
 }
 
 .bg-img-2 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       0deg,
       rgba(255, 0, 0, 0.6),
       rgba(255, 0, 0, 0.6)
@@ -269,14 +282,14 @@ nav {
 .summit-date {
   color: #fff;
   font-weight: 900;
-  font-size: 32px;
+  font-size: 2rem;
   margin: 0;
 }
 
 .summit-location {
   color: #fff;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .partners {
@@ -286,7 +299,7 @@ nav {
 }
 
 .partner-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 28px;
   color: #fff;
@@ -300,11 +313,6 @@ nav {
   flex-wrap: wrap;
   padding: 0;
   gap: 38px;
-}
-
-.partner-logo > img {
-  width: auto;
-  height: 31px;
 }
 
 footer {
@@ -325,7 +333,7 @@ footer {
 
 .rights {
   font-weight: 700;
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 13px;
   color: #3b3e45;
 }
@@ -333,13 +341,14 @@ footer {
 .chinese-text {
   display: none;
 }
+
 @media screen and (min-width: 768px) {
   .top-nav {
     padding: 6px;
     background-color: #3e3e3e;
     display: flex;
-    color: #ffffff;
-    font-size: 12px;
+    color: #fff;
+    font-size: 0.75rem;
     font-weight: 400;
     list-style-type: none;
     justify-content: flex-end;
@@ -365,16 +374,24 @@ footer {
   }
 
   .nav-logo {
-    position: none;
     left: 205px;
     top: 50%;
     transform: translate(-50%, -50%);
   }
 
+  .contact-email > a {
+    font-weight: 800;
+    font-size: 1.0625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
   .nav-items > li > a {
     text-decoration: none;
     color: #868686;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 800;
   }
 
@@ -383,7 +400,7 @@ footer {
     height: 48px;
     border: 5px solid #ec4327;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #ec4327;
     padding: 18px;
   }
@@ -402,7 +419,7 @@ footer {
   }
 
   .img-text {
-    font-size: 55px;
+    font-size: 3.4375rem;
   }
 
   .img-text-underline {
@@ -412,7 +429,7 @@ footer {
   }
 
   .about-intro {
-    background-color: #ffffff;
+    background-color: #fff;
     width: 923px;
     padding: 35px 65px;
   }
@@ -423,16 +440,7 @@ footer {
 
   .contact-email > p {
     font-weight: 700;
-    font-size: 16px;
-  }
-
-  .contact-email > a {
-    font-weight: 800;
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    font-size: 1rem;
   }
 
   .contact-email > a > img {
@@ -444,7 +452,7 @@ footer {
   }
 
   .logo-title {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .logo-title > br {
@@ -457,11 +465,11 @@ footer {
   }
 
   .past-summit-title {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .past-summit-intro {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .past-summit-images {
@@ -493,8 +501,8 @@ footer {
 
   .rights {
     width: 683px;
-    color: #ffffff;
-    font-size: 14px;
+    color: #fff;
+    font-size: 0.875rem;
     display: flex;
     flex-direction: column;
     gap: 25px;
