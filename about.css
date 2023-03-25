@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
 body {
+  width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+}
+
+.top-nav {
+  display: none;
 }
 
 nav {
@@ -101,6 +106,10 @@ nav {
   transform: translate(-50%, -50%);
 }
 
+.nav-items {
+  display: none;
+}
+
 .header-content {
   display: grid;
   gap: 0.313rem;
@@ -128,9 +137,13 @@ nav {
   font-weight: 900;
 }
 
-.img-text > br {
+.img-text-underline {
   display: none;
 }
+
+/* .img-text > br {
+  display: none;
+} */
 
 .about-intro {
   padding: 24px 9.5px;
@@ -159,6 +172,10 @@ nav {
   font-weight: 800;
 }
 
+.contact-email > a > img {
+  display: none;
+}
+
 .about-logo {
   text-align: center;
 }
@@ -183,6 +200,10 @@ nav {
 
 .logo {
   width: 100%;
+}
+
+.before-summit {
+  border: 1px solid #fafafa;
 }
 
 .past-summit {
@@ -298,9 +319,189 @@ footer {
   width: 135px;
 }
 
+.footer-logo-black {
+  display: none;
+}
+
 .rights {
   font-weight: 700;
   font-size: 10px;
   line-height: 13px;
   color: #3b3e45;
+}
+
+.chinese-text {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .top-nav {
+    padding: 6px;
+    background-color: #3e3e3e;
+    display: flex;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 205px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    list-style-type: none;
+    padding: 13px;
+  }
+
+  .nav-logo {
+    position: none;
+    left: 205px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .nav-items > li > a {
+    text-decoration: none;
+    color: #868686;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  #desktop-campaign {
+    width: 123px;
+    height: 48px;
+    border: 5px solid #ec4327;
+    font-weight: 800;
+    font-size: 14px;
+    color: #ec4327;
+    padding: 18px;
+  }
+
+  .header-content {
+    background-color: #f7f7f8;
+    padding: 115px 260px;
+  }
+
+  .headline {
+    padding: 0;
+  }
+
+  .headline > h2 {
+    display: none;
+  }
+
+  .img-text {
+    font-size: 55px;
+  }
+
+  .img-text-underline {
+    display: block;
+    width: 35px;
+    border-bottom: 2px solid #a04038;
+  }
+
+  .about-intro {
+    background-color: #ffffff;
+    width: 923px;
+    padding: 35px 65px;
+  }
+
+  .contact-email {
+    padding-bottom: 0;
+  }
+
+  .contact-email > p {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .contact-email > a {
+    font-weight: 800;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .contact-email > a > img {
+    display: block;
+  }
+
+  .about-logo {
+    padding: 65px 341px;
+  }
+
+  .logo-title {
+    font-size: 30px;
+  }
+
+  .logo-title > br {
+    display: none;
+  }
+
+  .logo {
+    width: 542px;
+    margin-top: 19px;
+  }
+
+  .past-summit-title {
+    font-size: 30px;
+  }
+
+  .past-summit-intro {
+    font-size: 16px;
+  }
+
+  .past-summit-images {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  footer {
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    padding: 74px 146px;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  .footer-logo-black {
+    display: block;
+    width: 325px;
+  }
+
+  .rights {
+    width: 683px;
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .chinese-text {
+    display: block;
+    line-height: 28px;
+  }
 }
