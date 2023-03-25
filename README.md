@@ -21,7 +21,7 @@
 
 # :book: [Portfolio]
 
-**[Capstone Project]** is a microverse project where I created a home and about page using HTML, CSS & Javascript. In this project I included heading section, project presentation section, about section & contact me form.
+**[Capstone Project]** is a microverse project where I created a home and about page using HTML, CSS & Javascript. In this project I included 2 pages i.e. home page and about page.
 
 ## :hammer_and_wrench: Built With
 
@@ -34,8 +34,8 @@ HTML, CSS and Javascript
 
 - **[- Use Javascript, HTML & CSS linters]**
 - **[- Add Mobile Menu Toggle using Javascript]**
-- **[- Add Modal with detail of the project when click to the see project button in the project cards.]**
-- **[- Validate contact form using Javascript (Show error if the E-mail is not in Lowercase)]**
+- **[- The section "Featured speakers" in the home page created dynamically using JavaScript.]**
+- **[- Created Responsiveness for both mobile and desktop version.]**
 - **[- Use Flexbox & Grid]**
 
 ## :computer: Getting Started
@@ -73,7 +73,7 @@ To run the project open the index.html file in your web browser or you can also 
 No test are available
 
 ### Project-Presentation
--[Project-Presentaion](https://www.loom.com/share/45259b4cedb14d478d971349773cf0aa)
+-[Project-Presentaion](https://www.loom.com/share/1a1fba5b911d4a8c85e733ff2da3d25c)
 
 ### :rocket: Live-Demo
 
@@ -89,8 +89,8 @@ No test are available
 
 ## :telescope: Future Features
 
-- [ ] **[Add more forms]**
-- [ ] **[Make an atractive Layout]**
+- [ ] **[Add more animation]**
+- [ ] **[Make an attractive Layout]**
 - [ ] **[Add some Javascript]**
 
 ## :handshake: Contributing
