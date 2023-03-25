@@ -28,7 +28,7 @@
 ### Tech Stack
 
 **Client**
-HTML, CSS and Javascript
+HTML, CSS and Javascript.
 
 ### Key Features
 
