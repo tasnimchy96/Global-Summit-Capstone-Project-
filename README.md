@@ -52,7 +52,7 @@ Open Terminal & Clone this repository to your desired folder:
 
 ```sh
 cd <path-to-the-folder>
-git clone https://github.com/tasnimchy96/portfolio.github.io
+git clone https://github.com/tasnimchy96/firstCapstone.github.io.git
 cd portfolio.github.io
 code .
 ```
@@ -77,7 +77,7 @@ No test are available
 
 ### :rocket: Live-Demo
 
-- [Live-Demo](https://tasnimchy96.github.io/portfolio.github.io/)
+- [Live-Demo](https://tasnimchy96.github.io/firstCapstone.github.io/)
 
 ## :busts_in_silhouette: Authors
 
