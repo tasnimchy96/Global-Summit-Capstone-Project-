@@ -104,7 +104,7 @@ If you like this project feel free to share with your friends.
 
 ## :pray: Acknowledgments
 
-I would like to thank Microverse for this amazing exercise.
+I would like to thank Microverse for this amazing exercise and also like to thank Cindy Shin the author of the original design.
 
 ## 📝 License <a name="license"></a>
 This project is [MIT](./LICENSE.md) licensed.

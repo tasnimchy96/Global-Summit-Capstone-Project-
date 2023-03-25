@@ -12,10 +12,6 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-header {
-  height: 80vh;
-}
-
 .top-nav {
   display: none;
 }
@@ -27,7 +23,9 @@ nav {
   padding: 12px 0 6px 23px;
   position: relative;
   background: #fff;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url("./images/home-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 50%;
 }
 
 .hamburger {
@@ -52,6 +50,7 @@ nav {
 }
 
 .overlay-content {
+  list-style-type: none;
   position: relative;
   width: 300px;
   margin: 30% 10%;
@@ -71,7 +70,7 @@ nav {
   transition: 0.3s;
 }
 
-.overlay-content > a {
+.overlay-content > li > a {
   text-decoration: none;
   font-size: 2.25rem;
   font-weight: 700;
@@ -107,6 +106,7 @@ nav {
 /* Menu Toggle */
 
 .nav-logo {
+  display: none;
   width: 8.125rem;
   height: 3.188rem;
   position: absolute;
@@ -120,10 +120,12 @@ nav {
 }
 
 .header-content {
-  padding-top: 6.063rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 4rem;
   display: grid;
   gap: 0.313rem;
-  justify-items: center;
+  justify-items: flex-start;
   align-content: flex-start;
   height: 100%;
   background-image: url("./images/home-bg.svg");
@@ -149,7 +151,7 @@ nav {
 .summit-intro {
   color: #515151;
   margin: 0;
-  padding: 17px 22px;
+  padding: 17px 0;
 }
 
 .location-time {
@@ -193,6 +195,7 @@ nav {
 .underline {
   width: 30px;
   border-bottom: 2px solid #a04038;
+  margin-top: 15px;
 }
 
 .program-list {
@@ -212,6 +215,8 @@ nav {
 
 .program-head-title {
   margin: 0;
+  display: grid;
+  justify-items: center;
 }
 
 .program-title {
@@ -244,9 +249,12 @@ nav {
   font-weight: 400;
   font-size: 1.25rem;
   color: #000;
+  display: grid;
+  justify-items: center;
 }
 
 .speaker-list {
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
@@ -355,6 +363,7 @@ footer {
   }
 
   .nav-logo {
+    display: block;
     left: 205px;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -496,7 +505,8 @@ footer {
   /* Partners */
 
   .partners {
-    display: block;
+    display: grid;
+    justify-items: center;
     background-color: #414246;
     text-align: center;
     padding: 35px 120px;
