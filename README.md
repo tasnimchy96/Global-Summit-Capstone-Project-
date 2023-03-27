@@ -32,8 +32,8 @@ HTML, CSS and Javascript
 
 ### Key Features
 
-- **[- Use Javascript, HTML & CSS linters]**
-- **[- Add Mobile Menu Toggle using Javascript]**
+- **[- Use Javascript, HTML & CSS linters.]**
+- **[- Add Mobile Menu Toggle using Javascript.]**
 - **[- The section "Featured speakers" in the home page created dynamically using JavaScript.]**
 - **[- Created Responsiveness for both mobile and desktop version.]**
 - **[- Use Flexbox & Grid]**
