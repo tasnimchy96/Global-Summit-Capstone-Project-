@@ -52,7 +52,7 @@ Open Terminal & Clone this repository to your desired folder:
 
 ```sh
 cd <path-to-the-folder>
-git clone https://github.com/tasnimchy96/portfolio.github.io
+git clone https://github.com/tasnimchy96/firstCapstone.github.io.git
 cd portfolio.github.io
 code .
 ```
@@ -73,11 +73,11 @@ To run the project open the index.html file in your web browser or you can also 
 No test are available
 
 ### Project-Presentation
--[Project-Presentaion](https://www.loom.com/share/1a1fba5b911d4a8c85e733ff2da3d25c)
+-[Project-Presentaion](https://www.loom.com/share/f14a176ebcf34f1e9387faab1093a676)
 
 ### :rocket: Live-Demo
 
--[Live-Demo](https://tasnimchy96.github.io/portfolio.github.io/)
+- [Live-Demo](https://tasnimchy96.github.io/firstCapstone.github.io/)
 
 ## :busts_in_silhouette: Authors
 
@@ -104,9 +104,8 @@ If you like this project feel free to share with your friends.
 
 ## :pray: Acknowledgments
 
-I would like to thank Microverse for this amazing exercise.
+I would like to thank Microverse for this amazing exercise and also like to thank Cindy Shin the author of the original design.
 
 ## 📝 License <a name="license"></a>
 This project is [MIT](./LICENSE.md) licensed.
-
 
