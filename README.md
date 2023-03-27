@@ -40,7 +40,7 @@ HTML, CSS and Javascript
 
 ## :computer: Getting Started
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
